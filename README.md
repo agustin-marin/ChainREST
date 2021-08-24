@@ -10,7 +10,7 @@ We use a third party module called `` fabric-network-simple: 1.1.0 `` which uses
 
 We need to specify the blockchain topology and configuration(channel name, smart contract name, number of organizations, etc.) [line 6-routes/chain.js](https://github.com/agustin-marin/ChainREST/blob/main/routes/chain.js#L6)
 
-We can use queryChaincode(readonly smartcontract operation) and invokeChaincode(read-write smartcontract operation) specifying method and parameters: [queryChaincode])(https://github.com/agustin-marin/ChainREST/blob/main/routes/chain.js#L98) and [invokeChaincode](https://github.com/agustin-marin/ChainREST/blob/main/routes/chain.js#L220), in order to execute smartcontracts in the blockchain.
+We can use queryChaincode(readonly smartcontract operation) and invokeChaincode(read-write smartcontract operation) specifying method and parameters: [queryChaincode](https://github.com/agustin-marin/ChainREST/blob/main/routes/chain.js#L98) and [invokeChaincode](https://github.com/agustin-marin/ChainREST/blob/main/routes/chain.js#L220), in order to execute smartcontracts in the blockchain.
 
 ## Smart Contract Example
 On this [github](https://github.com/hyperledger/fabric-samples/tree/main/chaincode) we have several examples of chaincode written in different languages.
